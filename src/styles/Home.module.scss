@@ -90,8 +90,8 @@
 
 .center::after {
   background: var(--primary-glow);
-  width: 240px;
-  height: 180px;
+  width: 330px;
+  height: 260px;
   z-index: -1;
 }
 
@@ -100,8 +100,14 @@
   content: '';
   left: 50%;
   position: absolute;
-  filter: blur(45px);
+  filter: blur(60px);
   transform: translateZ(0);
+}
+.center::before{
+  animation: 6s rotate linear infinite;
+}
+.center::after{
+  animation: 10s rotate linear infinite;
 }
 
 .logo,
