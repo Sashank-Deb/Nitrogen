@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 6rem 2rem;
   min-height: 100vh;
 }
 
@@ -74,10 +74,12 @@
 
 .center {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  width: 100%;
 }
 
 .center::before {
@@ -86,6 +88,7 @@
   width: 480px;
   height: 360px;
   margin-left: -400px;
+  z-index: -1;
 }
 
 .center::after {
@@ -263,16 +266,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
 
-  .logo,
-  .thirteen img {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-}
 
 @keyframes rotate {
   from {
@@ -281,4 +275,48 @@
   to {
     transform: rotate(0deg);
   }
+}
+.todoHandler{
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  input{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.4s ease;
+    &:focus{
+      border: 2px solid rgb(219, 219, 255);
+    }
+  }
+  div{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    button{
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      width: 100%;
+      transition: 0.6s ease;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+    .addBtn{
+      background-color: rgb(157, 74, 74);
+    }
+  }
+}
+.titleSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
