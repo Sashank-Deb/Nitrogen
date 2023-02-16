@@ -287,7 +287,7 @@
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    border: 2px solid transparent;
+    border: 2px solid rgb(219, 219, 255);
     transition: 0.4s ease;
     &:focus{
       border: 2px solid rgb(219, 219, 255);
@@ -304,6 +304,7 @@
       border: none;
       outline: none;
       width: 100%;
+      color: white;
       transition: 0.6s ease;
       &:hover{
         opacity: 0.8;
