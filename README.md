@@ -13,7 +13,8 @@ yarn dev
 # or
 pnpm dev
 ```
-<img width="378" alt="App Screenshot" src="https://user-images.githubusercontent.com/69194538/219301895-2fac9551-1dca-4d30-acda-55a3a6e5094f.png">
+<img width="380" alt="App Screenshot" src="https://user-images.githubusercontent.com/69194538/219301895-2fac9551-1dca-4d30-acda-55a3a6e5094f.png">
+<img width="380" alt="Screenshot 2023-02-16 at 1 30 07 PM" src="https://user-images.githubusercontent.com/69194538/219303558-1fda98a7-93f2-4b3a-8d90-be3eabf5a1c5.png">
 
 
 https://user-images.githubusercontent.com/69194538/219301985-c397c41c-6f63-4a3a-a28c-12c49e5619a7.mov
