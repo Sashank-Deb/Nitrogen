@@ -1,3 +1,4 @@
+Open [`https://sashank-deb.github.io/Nitrogen/`] with your browser to see the result.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -15,9 +16,6 @@ pnpm dev
 
 
 https://user-images.githubusercontent.com/69194538/219301985-c397c41c-6f63-4a3a-a28c-12c49e5619a7.mov
-
-
-Open [https://sashank-deb.github.io/Nitrogen/] with your browser to see the result.
 
 ## Learn More
 
