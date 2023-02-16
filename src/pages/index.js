@@ -58,7 +58,7 @@ export default function Home() {
     <>
       <Head>
         <title>To Do</title>
-        <meta name="description" content="To Do" />
+        <meta name="description" content="To-Do List Manager - All Your Tasks In One Place" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="choose.png" />
       </Head>
