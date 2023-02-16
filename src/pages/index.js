@@ -60,7 +60,7 @@ export default function Home() {
         <title>To Do</title>
         <meta name="description" content="To Do" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/choose.png" />
+        <link rel="icon" href="choose.png" />
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
