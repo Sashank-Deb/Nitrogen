@@ -1,4 +1,4 @@
-Open [`https://sashank-deb.github.io/Nitrogen/`] with your browser to see the result.
+Open [`https://sashank-deb.github.io/Nitrogen/`](https://sashank-deb.github.io/Nitrogen/) with your browser to see the result.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
