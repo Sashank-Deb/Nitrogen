@@ -49,6 +49,7 @@ export default function Home() {
         return [...prevTodos, {id: v4(), name:name, complete: false}]
       })
     }
+    todoNameRef.current.value = null
   } 
   const handleClearTodo = (e) =>{
     const newTodos= todos.filter(todo => !todo.complete);
