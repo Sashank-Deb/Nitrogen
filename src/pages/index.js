@@ -44,7 +44,7 @@ export default function Home() {
   } 
   const handleAddTodoEnter = (e) =>{
     const name = todoNameRef.current.value;
-    if(e.key === 'Enter') {
+    if(e.key === 'Enter' && name.length>0) {
       setTodos(prevTodos =>{
         return [...prevTodos, {id: v4(), name:name, complete: false}]
       })
